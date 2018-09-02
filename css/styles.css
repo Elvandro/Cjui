@@ -1,0 +1,108 @@
+.navbar{
+  background-color:skyblue;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  margin-bottom: 0px;
+}
+#lead{
+  position:relative;
+  height:100vh;
+  min-height:500px;
+  max-height:1080px;
+  background:url(../img/michael-afonso-421924-unsplash.jpg);
+  background-size:cover;
+  background-size: 1400px 700px;
+  padding:15px;
+  overflow:hidden
+}
+#lead-content{
+  position:absolute;
+  z-index:10;top:50%;left:50%;
+  transform:translate(-50%, -50%);
+  text-align:center
+}
+#lead-content h1,#lead-content h4{
+  margin:0
+}
+#lead-content h1{
+  color:#fff;
+  font-weight:700;
+  font-size:4em;
+  text-transform:uppercase;
+  letter-spacing:0.05em;
+  line-height:0.9em
+}
+#lead-content h4{
+  color:#a0cfee;
+  font-weight:500;
+  font-size:3em;
+  margin-bottom:15px;
+  margin-top:15px
+}
+#lead-content p{
+  color:navy;
+  font-weight:300;
+  font-size:1.9em;
+  margin-bottom:15px;
+  font-family: 'Philosopher', sans-serif;
+}
+#lead-overlay{
+  position:absolute;
+  height:100%;
+  width:100%;
+  top:0;right:0;bottom:0;left:0;
+  z-index:1;
+}
+#about p{
+  color:black;
+  font-weight:300;
+  font-size:1.5em;
+  margin-bottom:15px;
+  font-family: 'Philosopher', sans-serif;
+}
+#gallery{
+  background-color: #f2f2f5;
+  border-top:1px solid #dcd9d9;
+  border-bottom:1px solid #dcd9d9;
+}
+#heading{
+  font-family: 'Philosopher', sans-serif;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 3em;
+}
+#contact{
+  background-color: skyblue;
+  height: 300px;
+}
+#contact p{
+  color:white;
+  font-weight:300;
+  font-size:1.5em;
+  margin-bottom:15px;
+  font-family: 'Philosopher', sans-serif;
+}
+.social ul{
+  text-align: center;
+}
+.social li{
+  display:inline-block;
+  font-size:2em;
+  list-style:none;
+}
+.social a{
+  display:block;
+  color:navy;
+  padding:10px
+}
+.social a:hover{
+  color:white;
+}
+.social p {
+  color:black;
+  font-weight:300;
+  font-size:1em;
+  margin-bottom: 10px;
+}
